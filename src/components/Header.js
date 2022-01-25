@@ -5,11 +5,11 @@ const Header = () => {
     <nav>
       <div className="nav--left">
         <img src="/images/troll.png" alt="logo" />
-        <h1 className="nav--title">Meme Generator</h1>
+        <h2 className="nav--title">Meme Generator</h2>
       </div>
 
       <div className="nav--right">
-        <h3 className="nav--subtitle">React Course - Project 3</h3>
+        <h4 className="nav--subtitle">React Course - Project 3</h4>
       </div>
     </nav>
   );

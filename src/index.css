@@ -16,6 +16,7 @@ nav {
   align-items: center;
   padding: 38px;
   background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
+  color: #fff;
 }
 
 .nav--left {
@@ -25,12 +26,10 @@ nav {
 
 .nav--title {
   font-weight: 700;
-  color: #fff;
   letter-spacing: -0.1em;
   padding-left: 20px;
 }
 .nav--subtitle {
-  color: #fff;
   font-family: "Inter", sans-serif;
   font-weight: 500;
 }
