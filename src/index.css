@@ -19,6 +19,10 @@ nav {
   color: #fff;
 }
 
+main {
+  padding: 40px;
+}
+
 .nav--left {
   display: flex;
   align-items: center;
@@ -32,4 +36,34 @@ nav {
 .nav--subtitle {
   font-family: "Inter", sans-serif;
   font-weight: 500;
+}
+
+.form {
+  display: grid;
+  grid-template: 40px 40px / 1fr 1fr;
+  gap: 20px;
+}
+
+.meme--inputs {
+  font-family: "Karla", sans-serif;
+  border-radius: 5px;
+  border: 1px solid #d5d4d8;
+  text-indent: 5px;
+}
+
+.meme--button {
+  grid-column: 1/-1;
+  font-family: "Karla", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 5px;
+  background: linear-gradient(90.41deg, #711f8d 1.14%, #a818da 100%);
+  color: #fff;
+  letter-spacing: -0.1em;
+  border: none;
+  cursor: pointer;
+}
+
+input:focus {
+  outline: none;
 }
