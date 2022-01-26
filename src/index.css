@@ -73,3 +73,7 @@ input:focus {
   justify-content: center;
   padding: 20px;
 }
+
+.meme {
+  height: 500px;
+}
