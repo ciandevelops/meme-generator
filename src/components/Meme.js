@@ -20,11 +20,33 @@ const Meme = () => {
     }));
   };
 
+  const handleChange = (event) => {
+    const { name, value } = event.target;
+    setMeme((prevMeme) => ({
+      ...prevMeme,
+      [name]: value,
+    }));
+  };
+
   return (
     <main>
       <div className="form">
-        <input type="text" placeholder="Top Text" className="meme--inputs" />
-        <input type="text" placeholder="Bottom Text" className="meme--inputs" />
+        <input
+          type="text"
+          placeholder="Top Text"
+          className="meme--inputs"
+          name="topText"
+          value={meme.topText}
+          onChange={handleChange}
+        />
+        <input
+          type="text"
+          placeholder="Bottom Text"
+          className="meme--inputs"
+          name="bottomText"
+          value={meme.bottomText}
+          onChange={handleChange}
+        />
 
         <button onClick={getMemeImage} className="meme--button">
           Get a new meme image 🖼
@@ -33,8 +55,8 @@ const Meme = () => {
 
       <div className="meme--img">
         <img className="meme" src={meme.randomImage} alt="meme" />
-        <h2 className="meme--text top">One does not simply</h2>
-        <h2 className="meme--text bottom">Walk into Mordor</h2>
+        <h2 className="meme--text top">{meme.topText}</h2>
+        <h2 className="meme--text bottom">{meme.bottomText}</h2>
       </div>
     </main>
   );
