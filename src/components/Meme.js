@@ -30,8 +30,11 @@ const Meme = () => {
           Get a new meme image 🖼
         </button>
       </div>
+
       <div className="meme--img">
         <img className="meme" src={meme.randomImage} alt="meme" />
+        <h2 className="meme--text top">One does not simply</h2>
+        <h2 className="meme--text bottom">Walk into Mordor</h2>
       </div>
     </main>
   );
