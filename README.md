@@ -1,4 +1,4 @@
-![Screenshot](https://ibb.co/qMw1qqj)
+[Screenshot](https://ibb.co/qMw1qqj)
 
 # Live Version 
 
