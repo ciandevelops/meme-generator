@@ -1,6 +1,12 @@
+# Live Version 
+
+You can see a live version [here.](https://meme-generator-two-psi.vercel.app/)
+
 # Scrimba
 
 This project is created as part of a React Tutorial on [Scrimba](https://scrimba.com/learn/learnreact).
+
+# Usage
 
 The project uses API calls for the first time. 
 
